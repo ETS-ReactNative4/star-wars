@@ -1,12 +1,12 @@
 export const persons = [
 	{
 		name: 'Anton Hansson',
-		age: 34,
-		gender: 'male'
+		height: '176 cm',
+		mass: '76 kg'
 	},
 	{
 		name: 'Elina Eriksson',
-		age: 28,
-		gender: 'woman'
+		height: '168 cm',
+		mass: '53 kg'
 	}
 ];

@@ -9,8 +9,14 @@ const CardList = ({ persons }) => {
 						return (<Card 
 						key={i} 
 						name={persons[i].name} 
-						age={persons[i].age} 
+						height={persons[i].height} 
+						mass={persons[i].mass}
+						hair_color={persons[i].hair_color}
+						skin_color={persons[i].skin_color}
+						eye_color={persons[i].eye_color}
+						birth_year={persons[i].birth_year}
 						gender={persons[i].gender}
+						homeworld={persons[i].homeworld}
 						/>
 					);
 				})
