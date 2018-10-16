@@ -1,3 +1,29 @@
+
+@font-face {
+  font-family: "STARWARS LOGO FONT";
+  src: local('STARWARS LOGO FONT'), url('STARWARS.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html {
+  /* height: 100%; */
+}
+  h1 {
+    font-family: 'STARWARS LOGO FONT';
+  /* font-weight: 800; */
+  font-size: 70px;
+  text-align: center;
+  color: rgb(255, 209, 6);
+  /* border-top: 300px; */
+}
+
+button {
+  margin: 10px;
+}
+
+
+
 .App {
   text-align: center;
 }

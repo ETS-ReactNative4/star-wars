@@ -4,12 +4,11 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 import App from './App';
-import { persons } from './persons';
 
 
 ReactDOM.render(
-	<div>
-		<App persons={persons}/>
+	<div className="bg">
+		<App />
 	</div>
 		, document.getElementById('root'));
 	
