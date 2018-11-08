@@ -1,4 +1,5 @@
 import React from 'react';
+import './SearchBox.css';
 
 const SearchBox = ({searchfield, searchSent, searchChange, category}) => {
 	if (category.length !== 0) {
@@ -19,8 +20,8 @@ const SearchBox = ({searchfield, searchSent, searchChange, category}) => {
 			</div>
 		);
 	} else {
-		return <div className='tc'>
-			<p>Choose a category</p>
+		return <div className='starwars'>
+			<p>Choose your favorit star wars category</p>
 		</div>
 	}
 
