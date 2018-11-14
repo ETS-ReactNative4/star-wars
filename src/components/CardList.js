@@ -31,7 +31,6 @@ const CardList = ({ starwars, category }) => {
 						}
 					</div>
 				);
-				//break;
 			case 'https://swapi.co/api/planets/':
 				return (
 					<div>
@@ -109,7 +108,6 @@ const CardList = ({ starwars, category }) => {
 						}
 					</div>
 				);
-				//break;
 			case "https://swapi.co/api/species/":
 				return (
 					<div>

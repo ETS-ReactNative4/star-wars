@@ -21,7 +21,7 @@ const SearchBox = ({searchfield, searchSent, searchChange, category}) => {
 		);
 	} else {
 		return <div className='starwars'>
-			<p>Choose your favorit star wars category</p>
+			<p>Choose your favorite star wars category</p>
 		</div>
 	}
 
