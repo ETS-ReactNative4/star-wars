@@ -13,7 +13,7 @@ const SearchBox = ({searchfield, searchSent, searchChange, category}) => {
 					onKeyPress={searchChange}
 					/>
 				<button 
-					className='f6 link dim ph3 pv2 mb2 dib black bg-dark-grey'
+					className='f6 link dim br1 ph3 pv2 mb2 dib white bg-near-black'
 					onClick={searchSent} >
 					Search
 				</button>
